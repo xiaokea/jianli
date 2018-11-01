@@ -1,0 +1,92 @@
+body,html,.swiper-container,.main{width: 100%;height: 100%;overflow: hidden}
+html{font-size: 100px}
+
+
+
+
+
+
+
+
+
+/*第一屏*/
+.page1{background: url("../img/1/我的模板1.png")no-repeat;background-size: 100% 100%;}
+.page1 div{margin: 0 auto}
+
+.page1 .text1{position:absolute;
+    left:1.345rem;top:1.5rem;background: url("../img/1/我的模板1_03.png")no-repeat;width: 2.32rem;height: 0.43rem;background-size: cover}
+.page1 .text2{position:absolute;left:3rem;top:2rem;background: url("../img/1/我的模板1_07.png")no-repeat;width: 2.07rem;height: .41rem;background-size: cover;}
+.page1 .text3{position:absolute;left:2rem;top:3.65rem;background: url("../img/1/我的模板1_11.png")no-repeat;width: 2.35rem;height: 1.2rem;background-size: cover;}
+.page1 .text4{opacity:0;position:absolute;left:1.3rem;top:8rem;background: url("../img/1/我的模板1_15.png")no-repeat;width: 4.47rem;height: 2.63rem;background-size: cover;}
+
+
+
+/*第一屏动画*/
+#page1 .text1{-webkit-animation: flipInX 1s ease 1s both;animation: flipInX 1s ease .2s both;}
+#page1 .text2{-webkit-animation: flipInX 1s ease 2s both;animation: flipInX 1s ease .6s both;}
+#page1 .text3{-webkit-animation: flip 1s ease 3s both;animation: flip 1s ease .6s both;}
+#page1 .text4{-webkit-animation: bounceInRight 1s ease 4s both;animation: bounceInRight 1s ease 1s both;}
+
+
+
+/*第二屏*/
+.page2{background: url("../img/2/我的模板2.png")no-repeat;background-size: 100% 100%;}
+
+.page2 .text1{opacity:0;position:absolute;left:1rem;top:1rem;background: url("../img/2/我的模板2_03.png")no-repeat;width: 1.93rem;height: 1.9rem;background-size: cover;}
+.page2 .text2{opacity:0;position:absolute;left:3.2rem;top:1.5rem;background: url("../img/2/我的模板2_06.png")no-repeat;width: 1.98rem;height:1rem;background-size: cover;}
+.page2 .text3{opacity:0;position:absolute;left:1rem;top:4rem;background: url("../img/2/我的模板2_11.png")no-repeat;width: 1.94rem;height:.45rem;background-size: cover;}
+.page2 .text4{opacity:0;position:absolute;left:1rem;top:4.8rem;background: url("../img/2/我的模板22.png")no-repeat;width: 4.1rem;height:2.34rem;background-size: cover;}
+.page2 .text5{opacity:0;position:absolute;left:1rem;top:8rem;background: url("../img/2/我的模板2_18.png")no-repeat;width: 1.61rem;height:.35rem;background-size: cover;}
+.page2 .text6{opacity:0;position:absolute;left:1rem;top:8.8rem;background: url("../img/2/我的模板2_3.png")no-repeat;width: 2.99rem;height:1.89rem;background-size: cover;}
+
+
+/*第二屏动画*/
+
+#page2 .text1{-webkit-animation: fadeInRight 1s ease 1s both;animation: fadeInRight 1s ease 1s both;}
+#page2 .text2{-webkit-animation: fadeInRight 1s ease 1s both;animation: fadeInRight 1s ease 1.2s both;}
+#page2 .text3{-webkit-animation: fadeInRight 1s ease 1s both;animation: fadeInRight 1s ease 1.4s both;}
+#page2 .text4{-webkit-animation: fadeInRight 1s ease 1s both;animation: fadeInRight 1s ease 1.6s both;}
+#page2 .text5{-webkit-animation: fadeInRight 1s ease 1s both;animation: fadeInRight 1s ease 1.8s both;}
+#page2 .text6{-webkit-animation: fadeInRight 1s ease 1s both;animation: fadeInRight 1s ease 2s both;}
+
+
+/*第三屏*/
+.page3{background: url("../img/3/我的模板2.png")no-repeat;background-size: 100% 100%;}
+.page3 .text1{opacity:0;position:absolute;left:.8rem;top:1rem;background: url("../img/3/我的模板3_03.png")no-repeat;width: 3.24rem;height: .39rem;background-size: cover}
+.page3 .text2{opacity:0;position:absolute;left:2rem;top:2.5rem;background: url("../img/3/我的模板3_07.png")no-repeat;width: 2.18rem;height:1.93rem;background-size: cover;}
+.page3 .text3{opacity:0;position:absolute;left:2rem;top:5.5rem;background: url("../img/3/我的模板3_09.png")no-repeat;width: 2.18rem;height:2.36rem;background-size: cover;}
+.page3 .text4{opacity:0;position:absolute;left:.8rem;top:8.8rem;background: url("../img/3/我的模板3_11.png")no-repeat;width: 2.31rem;height:.33rem;background-size: cover;}
+.page3 .text5{opacity:0;position:absolute;left:.5rem;bottom:1.5rem;background: url("../img/3/我的模板3_23.png")no-repeat;width: 1.07rem;height:1rem;background-size: cover;}
+.page3 .text6{opacity:0;position:absolute;left:1.8rem;bottom:1.5rem;background: url("../img/3/我的模板3_18.png")no-repeat;width: 1.26rem;height:1.22rem;background-size: cover;}
+.page3 .text7{opacity:0;position:absolute;left:3.3rem;bottom:1.5rem;background: url("../img/3/我的模板3_20.png")no-repeat;width: 1.01rem;height:1.22rem;background-size: cover;}
+.page3 .text8{opacity:0;position:absolute;left:4.7rem;bottom:1.5rem;background: url("../img/3/我的模板3_15.png")no-repeat;width: 1.2rem;height:1.54rem;background-size: cover;}
+
+
+/*第三屏动画*/
+#page3 .text1{-webkit-animation: fadeInRight 1s ease 1s both;animation: fadeInRight 1s ease .6s both;}
+#page3 .text2{-webkit-animation: fadeInRight 1s ease 1s both;animation: fadeInRight 1s ease 1s both;}
+#page3 .text3{-webkit-animation: fadeInRight 1s ease 1s both;animation: fadeInRight 1s ease 1.2s both;}
+#page3 .text4{-webkit-animation: fadeInRight 1s ease 1s both;animation: fadeInRight 1s ease 1.7s both;}
+#page3 .text5{-webkit-animation: fadeInRight 1s ease 1s both;animation: fadeInRight 1s ease 1.9s both;}
+#page3 .text6{-webkit-animation: fadeInRight 1s ease 1s both;animation: fadeInRight 1s ease 2.3s both;}
+#page3 .text7{-webkit-animation: fadeInRight 1s ease 1s both;animation: fadeInRight 1s ease 2.5s both;}
+#page3 .text8{-webkit-animation: fadeInRight 1s ease 1s both;animation: fadeInRight 1s ease 2.5s both;}
+
+
+/*第四屏*/
+.page4{background: url("../img/4/我的模板2.png")no-repeat;background-size: 100% 100%;}
+
+.page4 .text1{opacity:0;position:absolute;left:.8rem;top:1rem;background: url("../img/4/我的模板4_03.png")no-repeat;width: 1.94rem;height:.31rem;background-size: cover;}
+.page4 .text2{opacity:0;position:absolute;left:.8rem;top:2rem;background: url("../img/4/我的模板4_07.png")no-repeat;width: 4.32rem;height:2.48rem;background-size: cover;}
+.page4 .text3{opacity:0;position:absolute;left:.8rem;top:6rem;background: url("../img/4/我的模板4_10.png")no-repeat;width: 1.94rem;height:.35rem;background-size: cover;}
+.page4 .text4{opacity:0;position:absolute;left:.8rem;top:7rem;background: url("../img/4/我的模板4_14.png")no-repeat;width: 4.9rem;height:2.07rem;background-size: cover;}
+.page4 .text5{opacity:0;position:absolute;left:.8rem;bottom:1.5rem;background: url("../img/4/我的模板4_17.png")no-repeat;width: 5.08rem;height:.36rem;background-size: cover;}
+
+
+/*第四屏动画*/
+
+#page4 .text1{-webkit-animation: fadeInRight 1s ease 1s both;animation: fadeInRight 1s ease 1s both;}
+#page4 .text2{-webkit-animation: fadeInRight 1s ease 1s both;animation: fadeInRight 1s ease 1.2s both;}
+#page4 .text3{-webkit-animation: fadeInRight 1s ease 1s both;animation: fadeInRight 1s ease 1.7s both;}
+#page4 .text4{-webkit-animation: fadeInRight 1s ease 1s both;animation: fadeInRight 1s ease 1.9s both;}
+#page4 .text5{-webkit-animation: fadeInRight 1s ease 1s both;animation: fadeInRight 1s ease 2.3s both;}
